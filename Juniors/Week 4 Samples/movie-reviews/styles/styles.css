@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+
+body{
+    margin: 10px;
+    text-align: center;
+}
+.reviewBox{
+    padding: 10px;
+}
+.reviewBox:nth-child(even) {
+    background-color:chocolate;
+}
+.reviewBox:nth-child(odd) {
+    background-color:hotpink;
+}
+
+.reviewTitle{
+    margin: 10px 0px 10px 0px;
+}
+.reviewAbout{
+    font-style: italic;
+}
+.reviewImage{
+    width: 200px;
+    padding: 10px;
+    background-color: black;
+    margin: 10px;
+}
+.reviewVideo{
+ width: 300px;
+}
