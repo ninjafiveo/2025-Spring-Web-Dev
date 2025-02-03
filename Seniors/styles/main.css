@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+div{
+    background-color: chocolate;
+}
+
+h1{
+    color: whitesmoke;
+}
+h2{
+    color: pink;
+}
+
+.mainNav ul{
+    background-color: aqua;
+    display: inline-block;
+}
+.mainNav li{
+    display: inline;
+    background-color: aquamarine;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.mainNav li:hover{
+    background-color: gray;
+}
+
+.mainNav li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.mainNav li a:hover{
+    color: aquamarine;
+}
+
+.sekolNinja{
+    padding-left: 20px;
+}
