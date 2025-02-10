@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+
+body{
+    margin: 10px;
+    text-align: center;
+}
+
+.mainNav{
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: start;
+    align-content: stretch;
+}
+
+#desktop_h1{
+    font-size: 56px;
+    font-weight: 1600;
+}
+#mobile_h1{
+    display: none;
+
+}
+.reviewBox{
+    display: flex;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.reviewBox {
+    background-color:cheocolat;
+}
+.reviewBox:nth-child(odd) {
+    background-color:hotpink;
+}
+
+.reviewTitle{
+    margin: 10px 0px 10px 0px;
+}
+.reviewAbout{
+    font-style: italic;
+}
+.reviewImage{
+    width: 200px;
+    padding: 10px;
+    background-color: black;
+    margin: 10px;
+}
+.reviewVideo{
+ width: 300px;
+}
+
+/* Media Queries Below  */
+@media screen and (max-width: 800px) {
+    body{
+        background-color: blueviolet;
+    }
+    #desktop_h1{
+        display: none;
+    }
+    #mobile_h1{
+        display: block;
+        color: darkred;
+        font-size: 40px;
+        font-weight: 1000;
+    }
+  }
